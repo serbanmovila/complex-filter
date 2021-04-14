@@ -1,0 +1,17 @@
+table {
+    width: 80vw;
+    margin: 50px auto;
+}
+
+td, th {
+    width: 14%;
+    /*border: 1px solid #D5D2D2;*/
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b2b3bc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dadbdf;
+}
